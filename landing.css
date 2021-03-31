@@ -1,0 +1,47 @@
+body{
+  background-color: black;
+  background-image: url('back.png');
+}
+
+.header{
+  background-color: black;
+}
+
+.button{
+position: absolute;
+width: 434px;
+height: 79px;
+left: 502px;
+top: 618px;
+}
+
+h1{
+  color: white;
+  text-align: center;
+  padding-top: 100px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 70px;
+
+}
+
+h2{
+  color: white;
+  font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+text-align: center;
+}
+
+.button{
+  background-color: #7A3CBA;
+  top: 400px;
+  border-radius: 40px;
+  width: 434px;
+height: 79px;
+color: white;
+font-size: 30px;
+
+}

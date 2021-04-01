@@ -1,0 +1,120 @@
+*{
+  background-color: #171717;
+  font-family: montserrat;
+}
+
+img:hover{
+  cursor: pointer;
+}
+
+.due-date, .points{
+  background-color: #7A3CBA;
+  float: right;
+}
+
+.container{
+  padding-left:4%;
+  padding-top: 0.5%;
+  padding-right: 4%;
+  padding-bottom: 2%;
+}
+
+h1, h2{
+  color: #7a3cba;
+  font-weight: 700;
+}
+
+h1{
+  font-weight: 700;
+  padding: 0;
+  line-height: 87px;
+  font-size: 64px;
+}
+
+h2{
+  line-height: 72px;
+  font-size: 56px;
+}
+
+hr{
+  border: 1px #aaaaaa solid;
+}
+
+.task{
+  color: #dfdfdf;
+  font-size: 32px;
+}
+
+.plus{
+  display: inline-block;
+  float:right;
+  padding-right: 30px;
+  padding-bottom: 5px;
+}
+
+.spec-task{
+  padding: 10px 0 10px 20px;
+  display: inline;
+  background-color: #ffffff;
+  color: #171717;
+  border-radius: 10px;
+  font-size: 32px;
+}
+
+.get-set-go{
+  background-color: #fff;
+  border: none;
+  font-size: 24px;
+  float: right;
+  color: #7A3CBA;
+  padding-right: 30px;
+  font-weight: bolder;
+}
+
+.get-set-go:hover{
+  cursor: pointer;
+}
+
+td{
+  height: 62px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  padding: 10px;
+  box-shadow: 15px 15px 4px #515151;
+}
+
+.hidden, p, img{
+  font-size: 32px;
+  background-color: #7A3CBA;
+}
+
+.hidden{
+  display: none;
+  width: 99%;
+}
+
+.topic, .ques{
+  padding-left: 20px;
+}
+
+ .due-date, .points{
+   padding-right: 20px;
+ }
+
+.pdf-icon{
+  height: 32px;
+}
+
+tr{
+  padding: 10px;
+}
+
+.plus{
+  background-color: #fff;
+}
+
+table{
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 1em;
+}

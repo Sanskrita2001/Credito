@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="course.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <meta charset="utf-8">
+    <title>Course Details</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Course Name: LOREM IPSUM</h1>
+      <h2>Course Code: ABC1001</h2>
+      <h3 class="task">Assignments</h3>
+      <hr>
+      <table id="datable">
+        <tr>
+            <td class="row" id="da1"><p class="spec-task">Digital Assignment - 1</p><img onclick="showMore1()" src="plus.png" class="plus" id="daplus1" alt="">
+            </td>
+        </tr>
+        <tr>
+          <td class="hidden" id="hid1">
+              <p class="topic">Topic - Lorem Ipsum<span class="due-date">Due Date - DD|MM|YYYY</span></p>
+              <p class="ques">Question -  <img class="pdf-icon" src="pdf-icon.png" alt=""><span class="points">Points Scored - 00</span></p>
+          </td>
+        </tr>
+        <tr>
+          <div class="row" id="da2">
+            <td><p class="spec-task">Digital Assignment - 2</p><img src="plus.png" onclick="showMore2()" class="plus" id="daplus2" alt=""></td>
+          </div>
+        </tr>
+        <tr>
+          <td class="hidden" id="hid2">
+              <p class="topic">Topic - Lorem Ipsum<span class="due-date">Due Date - DD|MM|YYYY</span></p>
+              <p class="ques">Question - <img class="pdf-icon" src="pdf-icon.png" alt=""><span class="points">Points Scored - 00</span></p>
+          </td>
+        </tr>
+      </table>
+      <h3 class="task">Quizes</h3>
+      <hr>
+      <table id="quiztable">
+        <tr>
+          <div class="row" id="q1">
+            <td><p class="spec-task">Quiz - 1</p><img onclick="showMore3()" src="plus.png" id="quizplus1" class="plus" alt=""></td>
+          </div>
+        </tr>
+        <tr>
+          <td class="hidden" id="hid3">
+            <p class="topic">Syllabus - Lorem Ipsum<span class="due-date">Date - DD|MM|YYYY</span></p>
+            <p class="ques">Points Scored - 00<span class="points">Time - 00:00hrs</span></p>
+          </td>
+        </tr>
+        <tr>
+          <div class="row" id="q2">
+            <td><p class="spec-task">Quiz - 2</p><a href="#"><img src="plus.png" onclick="showMore4()" class="plus" id="quizplus2" alt=""></td>
+          </div>
+        </tr>
+        <tr>
+          <td class="hidden" id="hid4">
+            <p class="topic">Syllabus - Lorem Ipsum<span class="due-date">Date - DD|MM|YYYY</span></p>
+            <p class="ques">Points Scored - 00<span class="points">Time - 00:00hrs</span></p>
+          </td>
+        </tr>
+      </table>
+      <h3 class="task">Extras</h3>
+      <hr>
+      <table id="extras-table">
+        <tr>
+          <div class="row" id="ex">
+            <td><p class="spec-task">Assessment of the Day</p><button type="button" class="get-set-go" onclick="showMore5()" id="getset" name="button">Get Set Go!</button></td>
+          </div>
+        </tr>
+        <tr>
+          <td class="hidden" id="hid5">
+              <p class="topic">Topic - Lorem Ipsum<span class="due-date">Due Date - DD|MM|YYYY</span></p><p class="ques">Question - <img class="pdf-icon" src="pdf-icon.png" alt=""></p><p class="points">Points Scored - 00</p>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <script src="course.js" charset="utf-8"></script>
+  </body>
+</html>
